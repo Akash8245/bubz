@@ -1,0 +1,51 @@
+{
+  "name": "bubz",
+  "productName": "BubZ",
+  "version": "1.0.0",
+  "description": "A Modern and Lightweight Web Browser to Browse, Blink, and Boom the Web!",
+  "main": "main.js",
+  "author": "Akash",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^35.1.2",
+    "electron-builder": "^24.13.3"
+  },
+"build": {
+  "appId": "com.akash.bubz",
+  "productName": "BubZ",
+  "copyright": "Copyright © 2025 Akash",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "**/*",
+    "!node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+    "!node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+    "!node_modules/**/*.d.ts",
+    "!node_modules/.bin",
+    "!.git",
+    "!*.md",
+    "!*.map"
+  ],
+  "win": {
+    "icon": "assets/icon.ico",
+    "target": ["nsis", "zip"]
+  },
+  "mac": {
+    "icon": "assets/icon.icns",
+    "category": "public.app-category.utilities",
+    "target": ["dmg", "zip"],
+    "hardenedRuntime": true,
+    "gatekeeperAssess": false
+  },
+  "linux": {
+    "icon": "assets/",
+    "target": ["AppImage", "deb", "rpm"]
+  }
+}
+
+}
