@@ -7,7 +7,7 @@ BubZ is an **open-source web browser** built with the **Electron framework**, de
 ## 🚀 Features  
 
 ### 🛡️ Privacy-Focused  
-- **Zero tracking** – Your data is yours! BubZ does not collect, track, or share your browsing activity.  
+- **Zero tracking** – Your data is yours !! BubZ does not collect, track, or share your browsing activity.  
 - **Brave Search Integration** – Uses **Brave Search**, ensuring a **privacy-first** search experience with no profiling.  
 
 ### 🧠 AI-Powered Search  
